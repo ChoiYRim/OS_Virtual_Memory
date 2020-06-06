@@ -1,5 +1,11 @@
 # OS_Virtual_Memory
 
+[CAUTION]
+
+If you want to execute this source code on your computer, you have to run this software on 32bit Ubuntu Linux 16.04. In addition, The size of physical memory of the 'SSUOS' which is OS for practice is 128MB and the size of one page frame is 4KB.
+
+I'm not a native English speaker,so please consider it when you read this script. :)
+
 [COPYRIGHT]
 
 All copyright is belong to Soongsil University OS Lab and this project was sixth subject of OS class.
