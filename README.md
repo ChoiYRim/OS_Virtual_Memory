@@ -12,11 +12,15 @@ All copyright is belong to Soongsil University OS Lab and this project was sixth
 
 [OVERVIEW]
 
+![vmrm.png](./image/vmrm.png)
+
 The main object of this project is to make a 'Page Allocator'. To make this project, We need to understand what the virtual 
 memory is and what the paging is. Virtual memory is to offer much bigger address space than real existing memory space by 
 abstracting physical memory. This address space is called 'Page' that points 4KB memory pieace. If we know the definitions of 
 the virtual memory and the paging, we can understand that it is impossible to match one to one between virtual memory and 
 physical memory.
+
+![bitmap.png](./image/bitmap.png)
 
 The object of this project is to make 'Page Allocator' based on understanding of virtual memory space and paging method. The virtual memory is splited into 'Kernel Pool' and 'User Pool' that we have to manage an usable page frame by bitmap. The main
 aims were written at [OBJECTS].
